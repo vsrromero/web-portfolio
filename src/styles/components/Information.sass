@@ -1,0 +1,44 @@
+@use '../variables'
+@use '../mixins'
+
+#information
+    @include mixins.centerFlex()
+    flex-direction: column
+    background-color: variables.$bg-color-secondary
+    border-radius: variables.$card-border-radius
+    color: variables.$text-color-secondary
+    padding: 1em
+    margin-bottom: 2rem
+    text-align: left
+    width: 80%
+    
+    .info-card
+        @include mixins.centerFlex()
+        justify-content: start
+        gap: 1rem
+        padding-bottom: .8rem
+        margin-bottom: .2rem
+        border-bottom: 1px solid #444
+        width: 100%
+
+        h3
+            font-size: .8rem
+            color: variables.$text-color-secondary        
+            
+@media only screen and ( max-width: 1200px )
+    h3
+        font-size: .5rem
+    .email
+        font-size: .8rem
+    
+    .location
+        font-size: .8rem
+
+@media only screen and ( max-width: 1024px )
+    #information
+        @include mixins.centerFlex
+        width: 180px
+
+    #email, #location 
+        display: none
+
