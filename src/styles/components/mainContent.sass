@@ -35,9 +35,55 @@
         margin-bottom: 1rem
         line-height: 1.4rem
 
+    ul
+        color: variables.$text-color-secondary
+        margin-bottom: 1.5rem
+
+    a
+        color: variables.$text-color-secondary
+        text-decoration: none
+        margin-bottom: 1rem
+
     .button 
          @include mixins.button(1rem,variables.$text-color,variables.$gradient-button)
          align-self: flex-start
-         margin-bottom: 1rem
+         margin-bottom: 4rem
          word-spacing: .5rem
+    
+    .general-links
+        margin-top: -1.2rem
+        &:hover
+            color: green
+
+    // coloring the icons
+    #html
+        svg
+            color: variables.$html-svg-color
+    #css
+        svg
+            color: variables.$css-svg-color
+    #js
+        svg
+            color: variables.$js-svg-color
+    #react
+        svg
+            color: variables.$react-svg-color
+    #php
+        svg
+            color: variables.$php-svg-color
+    #laravel
+        svg
+            color: variables.$laravel-svg-color
+    #python
+        svg
+            color: variables.$python-svg-color
+    #java
+        svg
+            color: variables.$java-svg-color
+    #csharp
+        svg
+            color: variables.$csharp-svg-color
+    #sass
+        svg
+            color: variables.$sass-svg-color
         

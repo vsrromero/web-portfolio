@@ -1,3 +1,6 @@
+@use '../variables'
+@use '../mixins'
+
 h3
     color: #e46c6c
 
@@ -10,7 +13,32 @@ ul
     margin-left: 4rem
 
 .sass
-    color: #cc6699
-
+    svg
+        color: variables.$sass-svg-color
+.html
+    svg
+        color: variables.$html-svg-color
 .css
-    color: #2862e9
+    svg
+        color: variables.$css-svg-color
+.js
+    svg
+        color: variables.$js-svg-color
+.react
+    svg
+        color: variables.$react-svg-color
+.php
+    svg
+        color: variables.$php-svg-color
+.laravel
+    svg
+        color: variables.$laravel-svg-color
+.python
+    svg
+        color: variables.$python-svg-color
+.java
+    svg
+        color: variables.$java-svg-color
+.csharp
+    svg
+        color: variables.$csharp-svg-color

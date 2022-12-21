@@ -8,27 +8,34 @@ import './styles/components/app.sass'
 
 function App() {
 
-  //const [userData, setUserData] = useState();
-  
-  /*
-  useEffect(() => {
-    const fetchData = async () => {
-      const dataFetch = await fetch('https://api.github.com/users/vsrromero')
-      .then(response => response.json()
-      .then(data =>{setUserData(data)}
-      ));
-    }
-    
-    fetchData()
-    
-  },[])   
-  */
+  const [userData, setuserData] = useState({});
 
- const userData = {
-   name: 'Victor Romero',
-   bio: 'Undergraduate in system analysis in Brazil, had been working as business analyst for more than 6 years and now seeking new challenges, so starting coding.',
-   location: 'England'
- }
+  useEffect(() => {
+
+    const fetchUserData = async () => {
+      const dataFetch = await fetch('https://api.github.com/users/vsrromero');
+      console.log('data fetch: '+dataFetch);
+      console.log('My name: '+dataFetch.name);
+      const data = await dataFetch.json();
+      console.log('Meu nome data: '+data.name);
+      setuserData({...data});
+      console.log(userData);
+      console.log(userData.name);
+    }
+
+    const fetchUserRepos = async () => {
+      const dataFetch = await fetch ('https://api.github.com/users/vsrromero/repos');
+      const data = await dataFetch.json();
+      console.log('respos: '+data.name)
+    }
+
+    fetchUserData();
+    fetchUserRepos();
+
+   
+
+  },[])  
+
 
   return (
     <div id="portfolio">

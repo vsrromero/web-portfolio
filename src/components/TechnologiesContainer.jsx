@@ -3,7 +3,6 @@ import {
     DiCss3,
     DiJsBadge,
     DiReact,
-    DiPhp,
     DiLaravel,
     DiPython,
     DiJava
