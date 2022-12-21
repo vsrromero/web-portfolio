@@ -30,13 +30,14 @@ function TechnologiesContainer () {
             <h2>Technologies</h2>
             <div className="technologies-grid">
                 {technologies.map((tech) => (
+
                     <div className="technologies-card" id={tech.id} key={tech.id}>
-                        
                         <div className="technologies-info">
                             <h3>{tech.name}{tech.icon}</h3>
                             <p>{tech.desc}</p>
                         </div>
                     </div>
+                    
                 ))}
             </div>
         </section>

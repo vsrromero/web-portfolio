@@ -85,7 +85,7 @@ function ProjectsContainer () {
                 This project is a full stack project, from front to back-end, that I had frozen for while due to the Full Stack Engineer course I am enrolled.
             </p>
             <p>
-                Despite it is not finished, couple of my knowledge of MVC, DAO and CRUD was applied here, so it is not a problem for a developer check the structure and the code to see part of I have accomplished.
+                Despite it is not finished, couple of my knowledge of MVC, DAO and CRUD was applied here, so it is not a problem for a developer check the structure and the code to see part of what I have accomplished.
             </p>
             <p>
                 I expect return to this project to consolidate my knowledge in Laravel and php.
@@ -98,7 +98,7 @@ function ProjectsContainer () {
                     <li>Blade</li>
                 </ul>
             <p>Follow the link to github repository to check the full project description and source code</p>
-            <a href='https://github.com/vsrromero/jammming' className='button' target='_blank'><FaGithub /> Repository</a>
+            <a href='https://github.com/vsrromero/managementApp' className='button' target='_blank'><FaGithub /> Repository</a>
 
             <h3>Want check more? ...</h3>
             <p>
