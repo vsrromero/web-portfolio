@@ -13,7 +13,7 @@ function Sidebar (props) {
             <p className="title">Full-Stack Dev</p>
             <SocialNetworks />      
             <Information />
-            <a href="" className="button">Download CV</a>
+            <a href="https://docs.google.com/document/d/1MPjMcciJKRiIUbABdK7IItcpzmbFWaBX/edit?usp=sharing&ouid=102759505785999791741&rtpof=true&sd=true" className="button">Download CV</a>
         </aside>
     )
 }
