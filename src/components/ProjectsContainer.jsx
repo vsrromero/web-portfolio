@@ -35,7 +35,7 @@ function ProjectsContainer () {
                     <li>Using props and Hooks</li>
                 </ul>
             <p>Follow the link to github repository to check the full project description and source code</p>
-            <a href='#' className='button'><FaGithub /> Repository</a>
+            <a href='https://github.com/vsrromero/web-portfolio' className='button'><FaGithub /> Repository</a>
 
             <h3>Simplistic Web Portfolio</h3>
             <a href='https://vsrromero.github.io/webportfolio/' className='general-links'> &gt;&gt; https://vsrromero.github.io/webportfolio &lt;&lt;</a>
