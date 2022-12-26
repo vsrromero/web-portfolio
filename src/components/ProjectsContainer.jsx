@@ -38,7 +38,7 @@ function ProjectsContainer () {
             <a href='https://github.com/vsrromero/web-portfolio' className='button'><FaGithub /> Repository</a>
 
             <h3>Simplistic Web Portfolio</h3>
-            <a href='https://vsrromero.github.io/webportfolio/' className='general-links'> &gt;&gt; https://vsrromero.github.io/webportfolio &lt;&lt;</a>
+            <a href='https://vsrromero.github.io/webportfolio/' className='general-links' target='_blank'> &gt;&gt; https://vsrromero.github.io/webportfolio &lt;&lt;</a>
             
             <p>
                 This was the first web portfolio I've done using only HTML, CSS and vanilla JavaScript.
@@ -59,7 +59,7 @@ function ProjectsContainer () {
             <a href='https://github.com/vsrromero/webportfolio' className='button' target='_blank'><FaGithub /> Repository</a>
 
             <h3>The Jamming</h3>
-            <a href='https://loquacious-zuccutto-c58a58.netlify.app/' className='general-links'> &gt;&gt; https://loquacious-zuccutto-c58a58.netlify.app &lt;&lt;</a>
+            <a href='https://loquacious-zuccutto-c58a58.netlify.app/' className='general-links' target='_blank'> &gt;&gt; https://loquacious-zuccutto-c58a58.netlify.app &lt;&lt;</a>
             
             <p>
                 This is not a great and usefull app, but here you can see loads of practices, concepts and techniques put all together. 
@@ -79,6 +79,24 @@ function ProjectsContainer () {
                 </ul>
             <p>Follow the link to github repository to check the full project description and source code</p>
             <a href='https://github.com/vsrromero/jammming' className='button' target='_blank'><FaGithub /> Repository</a>
+
+            <h3>Simple Financial Controller </h3>
+            <a href='https://resonant-beijinho-c7917e.netlify.app/' className='general-links' target='_blank'> &gt;&gt; https://resonant-beijinho-c7917e.netlify.app &lt;&lt;</a>
+
+            <p>
+                This is a simple useful app that allows you to control your incomings and outcomings.
+            </p>
+            <p>
+                All transactions will be saved at browser local storage.
+            </p>
+            
+            <h4>Main features/techonologies</h4>
+                <ul>
+                    <li>React <span className='react'><DiReact /></span></li>
+                    <li>Working with props and components</li>
+                </ul>
+            <p>Follow the link to github repository to check the full project description and source code</p>
+            <a href='https://github.com/vsrromero/Financial-Controller' className='button' target='_blank'><FaGithub /> Repository</a>
            
             <h3>Management App</h3>
             <p>
