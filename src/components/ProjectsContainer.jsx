@@ -25,7 +25,7 @@ function ProjectsContainer () {
                 I have been working in several projects simultaneously, and this is one of them, it looks simple, but I have used couple of main knowledge and concepts.
             </p>
             <p>
-                This portfolio website was built using React, I tried to use several components, and bild it, at the same time, simple but complete, on example is my name and part of my bio, they are being get from GitHub with the GitHub API.
+                This portfolio website was built using React, I tried to use several components, and bild it, at the same time, simple but complete, one example is my name and part of my bio, they are being get from GitHub with the GitHub API.
             </p>
             <h4>Main features/techonologies</h4>
                 <ul>
